@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/charcoal"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/bg_login_bawah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/tvReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="57dp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="298dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:textColor="@color/charcoal" />
+
+    <EditText
+        android:id="@+id/edt_mail"
+        android:layout_width="298dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/edt_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/charcoal" />
+
+    <EditText
+        android:id="@+id/edt_pass"
+        android:layout_width="298dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/edt_mail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/charcoal" />
+
+    <EditText
+        android:id="@+id/edt_no"
+        android:layout_width="298dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/edt_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/charcoal" />
+
+    <EditText
+        android:id="@+id/edt_addr"
+        android:layout_width="298dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/edt_no"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/charcoal" />
+
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="189dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/edt_addr"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="Register"
+        app:backgroundTint="@color/charcoal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnreg"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="center"
+        android:text="Sudah punya akun?klik DISINI"
+        android:textColor="@color/charcoal" />
+
+</RelativeLayout>

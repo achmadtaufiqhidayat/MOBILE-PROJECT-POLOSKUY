@@ -1,1 +1,1 @@
-# MOBILE-PROJECT-POLOSKUY
+# apk-poloskuy
