@@ -6,6 +6,6 @@
     <solid
         android:color="#36454F"/>
     <size
-        android:height="80dp"
-        android:width="250dp"/>
+        android:height="49dp"
+        android:width="189dp"/>
 </shape>
